@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Recommendr: Movie and Game recommendations</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <br>
+  <div id="start" class="text-center">
+    <h1 style="font-size:40px">Recommendr</h1>
+    <p> Results </p>
+
+    <button class = "button1" onclick= "location.href='recommendr.html';" id="Main">Main</button>
+    <button class = "button1" onclick= "location.href='popular.html';" id="popular">Popular</button>
+    <button class = "button1" onclick= "location.href='history.html';" id="history">History</button>
+    <button class = "button1" onclick= "location.href='about.html';" id="about">About</button>
+  </div>
+
+  <br><br>
+  <div ><p id=status_ class="status">Current Status: </p></div>
+  <br><br>
+
+  </div>
+  <div id="r1"><div id="results">
+    <div id="movies"></div>
+    <div id="games"></div>
+    <div id="comics"></div>
+  </div></div>
+  <script src="API.js"></script>
+</body>
+</html>

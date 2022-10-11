@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Recommendr: Movie and Game recommendations</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <br>
+  <div id="start" class="text-center">
+    <h1 style="font-size:40px">Recommendr</h1>
+    <p>Running low on game or comic ideas?
+      You're in the right place! Enter a movie
+      of your liking and Recommendr will find you your next obsession. </p>
+    <!-- Menu bar -->
+    <button class = "button1" onclick= "location.href='popular.html';" id="popular">Popular</button>
+    <button class = "button1" onclick= "location.href='history.html';" id="history">History</button>
+    <button class = "button1" onclick= "location.href='about.html';" id="about">About</button>
+  </div>
+  <br><br>
+
+  <div class="text-center">
+
+    <label for="fname">Movie Title:</label>
+    <input type="text" id="fname" name="fname" value="" style="">
+    <button id="submit">Search</button>
+  </div>
+
+  <script src="recommendr.js"></script>
+</body>
+</html>

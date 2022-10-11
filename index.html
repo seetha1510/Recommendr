@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Recommendr: Movie and Game recommendations</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <br>
+  <div id="start" class="text-center">
+    <h1 style="font-size:40px">Recommendr</h1>
+    <p>Running low on game or comic ideas?
+      You're in the right place! Enter a movie
+      of your liking and Recommendr will find you your next obsession. </p>
+    <!-- Menu bar -->
+  </div>
+  <br><br>
+
+  <div class="text-center">
+
+    <label for="fname">Movie Title:</label>
+    <input type="text" id="fname" name="fname" value="" style="">
+    <button id="submit">Search</button>
+  </div>
+
+  <br><br>
+  <div ><p id=status_ class="status">Current Status: </p></div>
+  <br><br>
+  <hr>
+  <div class="text-center" class="inline">
+    <h1>Results</h1>
+  </div>
+  <div id="r1"><div id="results"></div></div>
+
+  <script src="API.js"></script>
+</body>
+</html>
